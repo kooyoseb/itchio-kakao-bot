@@ -111,7 +111,8 @@ static string FormatItems(List<ItchItem> items)
 }
 
 // ======= Config/Models =======
-record BotConfig(string ItchApiKey, string ItchUserName, int PollIntervalSec);
+public record BotConfig(string ItchApiKey, string ItchUserName, int PollIntervalSec);
+
 
 public class KakaoSkillRequest
 {
